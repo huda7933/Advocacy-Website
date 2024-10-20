@@ -1,0 +1,19 @@
+
+html, body, div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: rgba(253, 212, 225, 0.982);
+}
+input {
+	display: block
+}

@@ -1,0 +1,207 @@
+body {
+
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+.header-container:nth-of-type(1) {
+    color: red;
+}
+
+.header-container:nth-of-type(2) {
+    color: red;
+}
+
+img {
+    border-radius: 15px;
+    width: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+button {
+    margin: 5px;
+    color:white;
+    border-radius: 10px;
+    background-color: rgb(38, 3, 93);;
+    font-size: 15px;
+    border-color: rgb(38, 3, 93);
+    font-family: 'Arial Narrow Bold';
+    cursor: pointer;
+}
+
+h1 {
+    color:rgb(38, 3, 93);
+}
+h2 {
+    color: teal;
+    border-bottom: 2px solid teal;
+}
+
+h3 {
+    color: rgb(38, 3, 93);
+    font-size: 18px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+h4{
+    color: rgb(38, 3, 93);
+    font-size: 18px;
+    border-bottom: 2px solid;
+    display: inline;
+    margin: 20px 250px;
+    padding: 2px;
+}
+p {
+    font-family: sans-serif;
+}
+
+ul{
+    background-color: rgb(223, 177, 198);
+    padding: 0px 16px;
+    display: block;
+    overflow: hidden;
+}
+ul li {
+    color: black;
+}
+.creative {
+    color: rgb(38, 3, 93);
+    margin: 5px 30px;
+    display: inline;
+    padding: 8px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(38, 3, 93);;
+    border-radius: 10px;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.img-container {
+    position: relative;
+    width: 30%;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.img-container:hover .overlay {
+    opacity: 2;
+}
+.overlay {
+    position: absolute;
+    transition: .5s ease;
+    border-radius: 15px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: azure;
+}
+.text{
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+#interesting {
+    font-family: sans-serif;
+} 
+#stat{
+    width: 200px;
+    margin-left: 10px;
+}
+
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+    background-color: cadetblue;
+}
+
+#theme-button {
+    border-radius: 0px;
+    color: pink;
+}
+
+/* Navbar */
+/* General style rule set for all items in ul */
+.navbar ul {
+    list-style: none;
+    
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    float: left;
+    margin: 15px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+}
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {
+    color: red;
+}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {
+    color: red;
+}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {
+    color: red;
+}
+
+/* Style set for all flex-items */
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+   
