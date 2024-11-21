@@ -18,7 +18,7 @@
         <li><a href="#cafe">Home</a></li>
         <li><a href="#interesting">Purpose</a></li>
         <li><a href="#news">News</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#interesting">About</a></li>
         <li ><button id="theme-button">Dark Mode</button></li>
         </ul>
     </div>
@@ -37,6 +37,7 @@
     <p></p>
     <p></p>
     
+    <div class="revealable">
     <h4>MENU</h4>
     <div class="img-container">
         <img src="science.jpg" class="image">
@@ -44,48 +45,95 @@
             <div class="text">SCIENCE</div>
         </div>
     </div>
+    </div>
 
 
     <!--- About --->
+    <div class="revealable">
     <h2 id="interesting">Why it matters</h2>
     <p>It can be challenging to navigate stem fields as a women or as someone from a minority group.
     Many students may not have the resources, community or space to achieve their career goals or even explore their interests through research, internships or job opportunities
     </p>
+    </div>
 
 
     <!--- Data --->
-    <h3 id="interesting">Stats</h3>
+    <div class="revealable">
+    <h3>Stats</h3>
     <img id="stat" src="stat.jpg" />
+    </div>
     <!--- Impact --->
+    
+    <div class="revealable">
     <h2 id="interesting">Impact!</h2>
+    <h3>Spotlight on Women In Stem</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Rnwe2k1Y18o?si=80e3nYe8lmLQeID1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     <img src="" />
-    <h3>Where can this problem have lasting effects?</h3>
-    <p>Why?
-    </p>
-
-    <img src="" />
-    <h3>Where else can this problem have lasting effects?</h3>
-    <p>Why?
-    </p>
-
-    <img src="" />
-    <h3>Where else else can this problem have lasting effects?</h3>
-    <p>Why?
-    </p>
+    
+    <p></p>
+    </div>
 
 
     <!--- News --->
+    <div class="revealable">
     <h2 id="news">Recent News</h2>
 
-    <a class=""
-        href="https://www.womentech.net/en-us/women-in-tech-stats">
-        <article>
-            <h3></h3>
-            <p></p>
-        </article>
+    <a href="https://www.womentech.net/en-us/women-in-tech-stats">
+        <h3>Women In Tech</h3>
     </a>
+    <a href="https://www.stemwomen.com/women-in-stem-statistics-progress-and-challenges">
+      <article>          
+          <h3>STEM Women</h3>
+      </article>
+    </a>
+    </div>
 
+    <!-- Modal -->
+    <div id="thanks-modal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div id="modal-text-container">
+          <!-- button here (stretch feature) -->
+        </div>
+        <img id="flower" src="flower.gif"/>
+      </div>
+    </div>
+
+    <div class="petition revealable" id="petition">
+
+        <h2>Sign Our Petition 💌</h2>
+        <div class="petition-container">
+    
+          <div class="petition-para">
+            <p>It can be challenging for women, minorities and other underrepresented groups to navigate the stem field and discover their passions within their respective fields. Many women may not have the resources, community or space to achieve their career goals or even explore their interests through research, internships or job opportunities. </p>
+            <p>Lack of support for these underrepresented groups can further emphasize the gender disparity within stem fields. Sign this petition to support equity & inclusion for women and underrepresented groups in STEM fields!</p>
+          </div>
+    
+          <div class="signatures">
+            <p>🌸 Emily from Brooklyn supports this!</p>
+            <p>🌸 Safa from Chicago supports this!</p>
+            <p>🌸 Khushi from Boston supports this!</p>
+            <p></p>
+            
+          </div>
+    
+        </div>
+    
+      <!--- Sign Petition Form --->
+      <form id="sign-petition">
+        <label for="name">Name: </label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="home">Hometown: </label><br>
+        <input type="text" id="home" name="home"><br>
+        <label for="email">Email: </label><br>
+        <input type="text" id="email" name="email"><br>
+      </form>
+    
+       <!--- Sign Now Button --->
+      <button id="sign-now-button">Sign Now</button>
+    
+    </div>
     <script src="index.js"></script>
 </body>
 
